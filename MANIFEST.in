@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include materialtransfer *.css
+recursive-include materialtransfer *.csv
+recursive-include materialtransfer *.html
+recursive-include materialtransfer *.ico
+recursive-include materialtransfer *.js
+recursive-include materialtransfer *.json
+recursive-include materialtransfer *.md
+recursive-include materialtransfer *.png
+recursive-include materialtransfer *.py
+recursive-include materialtransfer *.svg
+recursive-include materialtransfer *.txt
+recursive-exclude materialtransfer *.pyc
